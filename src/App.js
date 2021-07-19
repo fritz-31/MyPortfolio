@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Fade from "react-reveal/Fade";
+import Slide from 'react-reveal/Slide'
 import  {Parallax}  from "react-parallax";
 import Container from "react-bootstrap/Container";
 
@@ -9,6 +10,10 @@ import {MyNavbar} from "./components/mynavbar"
 import  {MyCarousel}  from './components/my-carousel/my_carousel';
 import  {TitleMessage}  from './components/title-message/title_message';
 import {About} from './pages/About/about'
+import Skills from './pages/About/Skills/skills'
+import Experience from "./pages/experience/experience";
+import ProjectTimeline from "./components/project-timeline/project_timeline";
+
 
 
 const App = () => {
@@ -24,14 +29,51 @@ const App = () => {
           bgImageAlt="bg"
           strength={-200}
         >
-          <div>
+          
+            <Container className="container-box rounded">
+              <Slide bottom duration={500}>
+              <About/>
+              </Slide>
+            </Container>
+          
+          </Parallax>
+    </div>
+    {/*skills*/}
+    <div>
+      
+          
             <Container className="container-box rounded">
               <Fade duration={500}>
-              <About/>
+              <Skills/>
               </Fade>
             </Container>
-          </div>
-          </Parallax>
+          
+         
+    </div>
+
+{/*experience*/}
+    <div>
+      
+          
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+              <Experience/>
+              </Fade>
+            </Container>
+          
+         
+    </div>
+
+    <div>
+      
+          
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+              <ProjectTimeline/>
+              </Fade>
+            </Container>
+          
+         
     </div>
     </div>
   );
