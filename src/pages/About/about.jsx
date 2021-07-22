@@ -3,13 +3,14 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import Profile from '../../assets/img/profile/profile.webp'
+import Profile from '../../assets/img/profile/ProfilePic.webp'
 import Button from "react-bootstrap/Button";
 import './about.css'
 
 export const About = () => {
     return (
         <div id="about">
+        <img src="../assets/img/parallex/background.webp" alt="AboutBG"></img>
         <div className="about">
             <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
             <Container>
@@ -43,7 +44,7 @@ export const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1DGdD3lp36tRF94J4jx37dOoEcnDghWYR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

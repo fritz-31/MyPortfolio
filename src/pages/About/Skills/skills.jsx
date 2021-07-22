@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 // skills
-import { skills } from "./skills-data";
+import  {skills}  from "./skills-data";
 
 import "./skills.css";
 
