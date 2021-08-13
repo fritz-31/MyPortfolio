@@ -10,7 +10,7 @@ import './about.css'
 export const About = () => {
     return (
         <div id="about">
-        <img src="../assets/img/parallex/background.webp" alt="AboutBG"></img>
+        
         <div className="about">
             <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
             <Container>
@@ -26,14 +26,14 @@ export const About = () => {
                         <Row className=" align-items-start p-2 my-details rounded">
                             {/*description*/ }
                             Hi there! I am <strong>&nbsp;Ritwik Srivastava</strong>
-                <br />A passionate programmer and a tech enthusiast, born and brought up in India. I am an Android Developer and a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                <br />A passionate programmer and a tech enthusiast, born and brought up in India. I am an Android Developer, a Full Stack Web Developer and an aspiring Data Scientist.
                 <br />
-                I am currently pusuing my bachelors in Computer Science & Engineering from Indian Institute of Information Technology, Kurnool.
+                I am currently pusuing my bachelors in <strong> Computer Science & Engineering </strong>&nbsp; from <strong> Indian Institute of Information Technology, Kurnool.</strong>
                 <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                My goal is always driven towards striving towards betterment and perfection through hard and smart work.
                 <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. 
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                Along with that, I am a fast learner, a good team worker with exceptional mangerial skills.
+                <br />I love learning about new technologies, what problems are they solving and how can I use them to build better and scalable products.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                 <div>
@@ -51,14 +51,14 @@ export const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://github.com/akjha96" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/fritz-31" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">
                         GitHub
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/ritwik-srivastava-6b9602195/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>

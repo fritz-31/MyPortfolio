@@ -1,195 +1,173 @@
-/*import L_HTML5 from "../../src/assets/img/skills/html-5.svg";
-import L_CSS3 from "../../src/assets/img/skills/css3.svg"
-import L_SASS from "../../src/assets/img/skills/sass-1.svg";
-import L_REDUX from "../../src/assets/img/skills/redux.svg";
-import L_REACT_ROUTER from "../../src/assets/img/skills/react-router.svg";
-import L_MATERIALUI from "../../src/assets/img/skills/material-ui-1.svg";
-import L_REACT_BOOTSTRAP from '../../src/assets/img/skills/react-bootstrap.svg';
-import L_STYLED_COMPONENTS from "../../src/assets/img/skills/styled-components.svg";
-import L_NODE_JS from "../../src/assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../src/assets/img/skills/express.svg";
-import L_DJANGO from "../../src/assets/img/skills/django.svg";
-import L_FLASK from "../../src/assets/img/skills/flask.svg";
-import L_MONGODB from "../../src/assets/img/skills/mongodb.svg";
-import L_POSTGRESQL from "../../src/assets/img/skills/postgresql.svg";
-import L_MSSQL from "../../src/assets/img/skills/mssql.svg";
-import L_GIT from "../../src/assets/img/skills/github.svg";
-import L_HEROKU from "../../src/assets/img/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../../src/assets/img/skills/digital-ocean.svg";
-import L_GITHUB_PAGES from "../../src/assets/img/skills/github-api.svg";
-import L_JAVASCRIPT from "../../src/assets/img/skills/javascript.svg";
-import L_TYPESCRIPT from "../../src/assets/img/skills/typescript.svg";
-import L_GOLANG from "../../src/assets/img/skills/go-6.svg"
-import L_PYTHON from "../../src/assets/img/skills/python.svg";*/
-
- export const skills ={
+export const skills ={
   frontend: [
-    /*{
+    {
       link: "https://en.wikipedia.org/wiki/HTML5",
-      imgAltText: "HTML 5",
-      imgSrc: {L_HTML5},
+ 
       skillName: "HTML5",
     },
     {
       link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-      imgAltText: "CSS 3",
-      imgSrc: {L_CSS3},
+    
       skillName: "CSS3",
     },
     {
       link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: {L_JAVASCRIPT},
+      
       skillName: "JavaScript",
     },
-    {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: {L_SASS},
-      skillName: "Sass",
-    },*/
+    
     {
       link: "https://getbootstrap.com/",
-      imgAltText: "Bootstrap",
-      imgSrc: "../../assets/img/skills/bootstrap-4.svg",
+    
+      
       skillName: "Bootstrap",
     },
-    /*{
+    {
       link: "https://reactjs.org/",
-      imgAltText: "React JS",
-      imgSrc: "../../assets/img/skills/react.svg",
+      
+      
       skillName: "React JS",
     },
     {
       link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: {L_REDUX},
+      
+     
       skillName: "Redux",
     },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: {L_REACT_ROUTER},
-      skillName: "React Router",
-    },
+    
     {
       link: "https://material-ui.com/",
-      imgAltText: "Material-UI",
-      imgSrc: {L_MATERIALUI},
+      
+      
       skillName: "Material-UI",
     },
     {
       link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: {L_REACT_BOOTSTRAP},
+      
+      
       skillName: "React Bootstrap",
     },
     {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },*/
+      link:"https://www.php.net/",
+      skillName:"PHP"
+    },
+    {
+      link:"https://nodejs.org/en/",
+      skillName: "Node.js",
+    },
+    {
+      link:"https://expressjs.com/",
+      skillName: "Express",
+    },
+    {
+      link:"https://www.djangoproject.com/",
+      skillName:"Django",
+    },
+    {
+      link:"https://flask.palletsprojects.com/",
+      skillName:"Flask"
+    }
     
   ],
 
   backend: [
-   /* {
-      link: "https://nodejs.org/en/",
-      imgAltText: "Node.js",
-      imgSrc: {L_NODE_JS},
-      skillName: "Node.js",
+   {
+      link: "https://www.w3schools.com/xml/xml_whatis.asp",
+      
+     
+      skillName: "XML",
     },
     {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
+      link: "https://www.java.com/en/",
+     
+      
+      skillName: "Java",
     },
     {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },*/
+      link: "https://flutter.dev/",
+      
+     
+      skillName: "Flutter",
+    },
     {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: "../../src/assets/img/skills/flask.svg",
-      skillName: "Flask",
+      link: "https://dart.dev/",
+      
+      
+      skillName: "Dart",
     },
   ],
   hostingPlatforms: [
     {
-      link: "https://www.heroku.com/",
-      imgAltText: "Heroku",
-      imgSrc:"../../src/assets/img/skills/heroku.svg",
-      skillName: "Heroku",
-    },
-   /* {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
+      skillName:"Statistics"
     },
     {
-      link: "https://pages.github.com/",
-      imgAltText: "GitHub Pages",
-      imgSrc: L_GITHUB_PAGES,
-      skillName: "GitHub Pages",
-    },*/
+      skillName:"Data Manipulation"
+    },
+    {
+      skillName:"Data Analysis"
+    },
+    {
+      skillName:"Data Visualization"
+    },
+    {
+      link: "https://www.heroku.com/",
+    
+      
+      skillName: "Machine Learning",
+    },
+    {
+      link: "https://www.digitalocean.com/",
+    
+      
+      skillName: "Deep Learning",
+    },
   ],
   programmingLanguages: [
     {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: "../../src/assets/img/skills/javascript.svg",
-      skillName: "JavaScript",
+      link: "https://en.wikipedia.org/wiki/C_(programming_language",
+      
+      
+      skillName: "C",
     },
-   /*{
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+   {
+      link: "https://en.wikipedia.org/wiki/C%2B%2B",
+      
+      
+      skillName: "C++",
     },
     {
       link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
+     
+     
       skillName: "Python",
     },
     {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
-    },*/
+      link: "https://www.java.com/en/",
+      
+      
+      skillName: "Java",
+    },
   ],
   databases: [
+    
     {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: "../../src/assets/img/skills/postgresql.svg",
-      skillName: "PostgreSQL",
-    },
-    /*{
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
+      link: "https://www.w3schools.com/sql/",
+     
+      
+      skillName: "SQL",
     },
     {
       link: "https://www.mongodb.com/",
-      imgAltText: "MongoDB",
-      imgSrc: L_MONGODB,
+      
+      
       skillName: "MongoDB",
-    },*/
+    },
   ],
   versionControl: [
     {
       link: "https://git-scm.com/",
-      imgAltText: "GIT",
-      imgSrc: "../../src/assets/img/skills/github.svg",
+      
+      
       skillName: "GIT",
     },
   ]

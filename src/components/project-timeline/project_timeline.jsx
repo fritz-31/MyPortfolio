@@ -4,6 +4,8 @@ import "./project_timeline.css"
 
 //projects
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
+import L_SARGAM from  "../../assets/img/projects/SARGAM.jpg";
+import L_COFIT from  "../../assets/img/projects/cofiticon.jpg";
 import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
 import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
 import L_SmartBrain from "../../assets/img/projects/brain.webp";
@@ -29,6 +31,9 @@ import L_DJANGO from "../../assets/img/skills/django.svg";
 import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+import A_JAVA from "../../assets/img/skills/Java-01.svg";
+import A_XML from "../../assets/img/skills/XML_ICON.svg";
+import A_ANDROID from "../../assets/img/skills/ANDROID.svg";
 
 const ProjectTimeline = () => {
     return (
@@ -38,11 +43,11 @@ const ProjectTimeline = () => {
             <Events>
             {/*Projects list*/}
             <ImageEvent
-            date="01/10/2020"
+            date="01/04/2021"
             className="text-center"
-            text="React ToDo App"
-            src={L_ReactToDoList}
-            alt="React ToDo App"
+            text="SARGAM"
+            src={L_SARGAM}
+            alt="SARGAM"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -58,13 +63,14 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> This is a web application for music enthusiasts. A place to explore Indian and Western music
+                        and play musical instruments.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
-                          <li>Respoisive Design</li>
+                          <li>Play instruments using keyboard</li>
+                          <li>Uses tone.js library</li>
+                          <li>Respoisive Design and powerful UI</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -121,7 +127,7 @@ const ProjectTimeline = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
+                {/*<UrlButton
                   href="https://akjha96.github.io/Todo-List-React/"
                   target="_blank"
                 >
@@ -138,10 +144,109 @@ const ProjectTimeline = () => {
                   target="_blank"
                 >
                   WATCH VIDEO
-                </UrlButton>
+                </UrlButton>*/}
               </div>
             </div>
           </ImageEvent>
+
+          <ImageEvent
+            date="01/07/2021"
+            className="text-center"
+            text="CoFit"
+            src={L_COFIT}
+            alt="CoFit"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is an android app to keep you fit. It has fitness tracker, Yoga tutorials,
+                        Diet plan and Covid-19 tracker.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Provides voice command feature</li>
+                          <li>Personalised experience</li>
+                          <li>Cross-platform</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={A_JAVA}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              JAVA
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={A_XML}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              XML
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={A_ANDROID}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Android
+                            </span>
+                          </li>
+                          
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                {/*<UrlButton
+                  href="https://akjha96.github.io/Todo-List-React/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/akjha96/Todo-List-React"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                <UrlButton
+                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
+                  target="_blank"
+                >
+                  WATCH VIDEO
+                </UrlButton>*/}
+              </div>
+            </div>
+          </ImageEvent>
+
+
           </Events>
           </Timeline>
         </div>
